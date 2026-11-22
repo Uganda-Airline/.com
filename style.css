@@ -1,0 +1,179 @@
+.dd{
+
+  width: 300px;
+ 
+}
+.ss{
+
+  position: relative;
+  right: 200px;
+  top: 80px;
+  
+}
+.ne{
+    
+   
+  position:fixed;
+  right: 1000px;
+  top: 650px;
+  padding: 3px 80px ;
+ background: #000000;
+ border-radius: 20px;
+
+
+
+
+}
+
+.rr{
+
+
+  width: 60px;
+  border-radius: 30px;
+}
+
+
+/* ===== Uganda Airlines Corporation (UAC) – Stylesheet ===== */
+
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:"Segoe UI",Tahoma,Arial,sans-serif;
+  color:rgb(254, 255, 254);
+  background:rgba(120, 203, 238, 0.719);
+  line-height:1.8;               /* line spacing for paragraphs */
+  font-size:17px;
+}
+h1,h2,h3{font-family:Georgia,"Times New Roman",serif;line-height:1.35;color:rgba(0, 0, 0, 0.942)}
+h1{font-size:2.6rem}
+h2{font-size:1.9rem;margin-bottom:.6rem}
+h3{font-size:1.3rem;margin-bottom:.4rem; color: #1a6db5;}
+p{margin-bottom:1rem}
+a{color:rgb(131, 100, 242)}
+
+/* ===== Header ===== */
+header{
+  background:linear-gradient(120deg,rgb(0, 81, 128) 20%,rgb(42, 128, 203) 80%);
+  color:#fff;
+}
+.brand{
+  max-width:2000px
+  ;margin:0 auto;
+  padding:0px;
+  display:flex;
+  align-items:center;
+  gap:2rem;
+}
+.logo{width:58px;height:58px;flex:none}
+.brand-name{font-family:Georgia,serif;font-size:1.9rem;font-weight:bold;letter-spacing:.5px;line-height:1.2}
+.brand-name small{display:block;font-family:"Segoe UI",Arial,sans-serif;font-size:.85rem;font-weight:normal;letter-spacing:0;opacity:.85}
+.tagline{font-style:italic;color:rgb(255, 231, 73);font-size:1.15rem;margin-left:auto;text-align:right}
+
+/* ===== Navigation menu ===== */
+nav{background:rgba(0,0,0,.22);border-bottom:2px solid rgb(241, 248, 252);}
+nav ul{
+  max-width:1100px;margin:0 auto;padding:0 1rem;
+  
+  list-style:none;display:flex;gap:.25rem;
+}
+nav a{
+  display:block;padding:.8rem 1.3rem;color:#ffffff;text-decoration:none;font-weight:600;
+  border-bottom:4px solid transparent;transition:background .2s,border-color .2s;
+}
+nav a:hover{background:rgba(13, 170, 218, 0.8)}
+nav a.active{border-bottom-color:rgb(255, 255, 255);background:rgba(167, 17, 17, 0.1)}
+nav a:focus-visible,.btn:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #4ea8edd7;outline-offset:2px}
+
+/* ===== Layout ===== */
+main{max-width:1100px;margin:0 auto;padding:2.5rem 1.5rem 3rem}   /* content starts off the main margin */
+section{margin-bottom:2.5rem}
+
+/* ===== Hero (home) ===== */
+.hero{
+
+  background:linear-gradient(180deg,#4da1d8 0%,#cfeaf7 55%,#116aaec9 100%);
+  
+  display: flex;
+  align-items: center;
+  
+  
+}
+
+.hero-text{
+  position:relative;max-width:1100px;margin:0 auto;padding:4rem 1.5rem;
+}
+.hero-text h1{color:#fff;text-shadow:0 2px 10px rgba(0, 44, 70, 0.55);max-width:620px}
+.hero-text p{max-width:520px;font-size:1.15rem;color:#fff;text-shadow:0 1px 6px rgba(0,40,70,.6)}
+
+.banner{
+  background:
+    linear-gradient(135deg,#147786,#2d54b8);
+  color:#fff;
+}
+.banner .inner{max-width:1100px;margin:0 auto;padding:2.8rem 1.5rem}
+.banner h1{color:#fff;font-size:2.2rem}
+.banner p{margin:0;max-width:640px}
+
+/* ===== Cards & grids ===== */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.5rem; color: rgb(28, 125, 181);}
+.card{
+  background:#fff;border-radius:10px;padding:1.5rem;
+  border-top:5px solid rgb(29, 127, 212);
+  box-shadow:0 2px 10px rgba(11,58,91,.12);
+}
+.card:nth-child(2n){border-top-color:rgb(29, 127, 212)}
+.card:nth-child(3n){border-top-color:rgb(29, 127, 212)}
+.card .icon{font-size:2rem;display:block;margin-bottom:.3rem}
+.mv{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem}
+.mv div{background:rgb(29, 127, 212);color:#ffffff;border-radius:10px;padding:1.6rem}
+
+.mv h2{color:rgb(255, 255, 255)}
+.mv div:last-child h2{color:#ffffff}
+.mv p{margin:0;font-size:1.2rem;font-style:italic}
+
+.btn{
+  display:inline-block;padding:.75rem 1.6rem;border:0;border-radius:6px;cursor:pointer;
+  font:inherit;font-weight:700;text-decoration:none;
+  background:rgba(10, 69, 128, 0.647);color:rgb(253, 253, 253);transition:transform .15s,background .2s;
+}
+.btn:hover{background:#0a4a645a;transform:translateY(-1px)}
+.btn.secondary{background:#fff;color:rgb(35, 128, 205);border:2px solid rgb(30, 159, 210)}
+.btn.secondary:hover{background:#fdecef}
+.btn.dark{background:rgba(10, 69, 128, 0.647);color:rgb(253, 253, 253)}
+.btn.dark:hover{background:#0a4a645a;}
+
+/* ===== Forms ===== */
+form{background:#fff;
+  border-radius:10px;
+  padding:2rem; 
+  max-width:720px;
+  border-left:6px solid rgb(79, 156, 203);}
+  
+.field{margin-bottom:1.2rem}
+.row{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem}
+label{display:block;font-weight:600;margin-bottom:.25rem;color:rgb(3, 164, 245)}
+input,select,textarea{
+  width:100%;padding:.65rem .8rem;font:inherit;color:rgb(4, 138, 241);
+  border:1.5px solid #17b5f4;border-radius:6px;background:#c6dcf33b;
+}
+input:focus,select:focus,textarea:focus{border-color:rgb(12, 12, 151)}
+textarea{min-height:150px;resize:vertical}
+.actions{display:flex;gap:1rem;flex-wrap:wrap;margin-top:1.4rem}
+.notice{display:none;margin-top:1.2rem;padding:1rem 1.2rem;border-radius:6px;background:#e3f4ea;color:#1c5a37;border:1px solid #9ad2b1}
+.notice.show{display:block}
+
+.two-col{display:grid;grid-template-columns:1.4fr 1fr;gap:2rem;align-items:start}
+.info{background:rgb(42, 112, 173);color:#fff;border-radius:10px;padding:1.8rem}
+.info h3{color:rgb(239, 239, 126)}
+.info p{margin-bottom:.8rem}
+
+/* ===== Footer ===== */
+footer{background:rgb(49, 125, 201);color:#dbe8f1;border-top:6px solid rgb(239, 239, 126)}
+.foot{max-width:1100px;margin:0 auto;padding:2rem 1.5rem 1rem;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.5rem}
+footer h3{color:rgb(239, 239, 126);font-size:1.1rem}
+footer a{color:#fff;text-decoration:none;display:block;line-height:2}
+footer a:hover{text-decoration:underline}
+footer p{margin-bottom:.4rem}
+.copy{text-align:center;padding:1rem;background:rgba(33, 60, 131, 0.937);font-size:.9rem}
+
+
